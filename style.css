@@ -5,10 +5,27 @@ html{
                background-color:#10141b;
 background-image:url('C:\Users\pub-013\CS\diagonal-pattern.png');
 	 Font-Family:Sans-Serif;
-
+margin:0;
             }
             a{font-family: monospace;
             color:aliceblue;
             text-decoration: none;
         }
-   
+   li{
+    color:rgb(247, 240, 255)
+   }
+.HP{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+#header{
+    background-image: url("https://media1.tenor.com/images/ad3a949146095222e79f8e81dd33a28e/tenor.gif?itemid=13986894");
+    background-size: cover;
+    height:50%;
+    color: #ffffff;
+font-size: 2rem;
+display: flex;
+align-items:center;
+flex-direction: column;
+padding border-bottom: 5%;
+}
