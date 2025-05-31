@@ -9,22 +9,26 @@
         <link rel="stylesheet" href="style.css">
    
     </head>
-
     <body>
-<div>
-    <h1>Welcome,<span>_____</span></h1>
+<div id="header">
+    <h1>Welcome,<span id="username" name="username">_____</span></h1>
     <Span>
-        <input type="text">
-        <button>Save</button>
+ 
+        <input id="greeter" type="text" onclick=" document.getElementById('username').value ">
+        <button id="save-name">Save</button>
     </Span>
 </div>
       
-      <div>
+      <div id="intro">
         <h1>Hello world!&#128366;</h1>
 <IMG SRC="https://th.bing.com/th/id/OIP.0jdNlm_uIKgbaLp4j36KAgHaNK?rs=1&pid=ImgDetMain">
-<h4> Harry Potter Videos </h4>
+<h4> Harry Potter Videos: </h4>
+<a href="https://www.youtube.com/live/TJhj6H5NTvM?si=JbTEaqzetp7OBXXU"class="HP">Harry Potter </a>
+<h4>My favourite characters:</h4>
 <ul>
-    <li><a href="https://www.youtube.com/live/TJhj6H5NTvM?si=JbTEaqzetp7OBXXU">Harry Potter </a>
+<li >Hermione Granger</li>
+   <li>Remus Lupin</li>
+   <li class="HP">Harry Potter</li>
 </ul>
 </div>
         <script src="script.js"></script>
