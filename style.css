@@ -61,5 +61,22 @@ li{
 }
 #save-name{
     border-radius: 3em;
-    
+
 }
+.accordion-header{
+    width:100%;
+    border:none;
+    cursor: pointer;
+    transition: 0.8;
+    background-color: #bc7aff;
+    text-align: left;
+    font-size: 1.1rem;
+    color:aliceblue;
+    height: 7em;
+    }
+.accordion-content{
+    display: none;
+}
+.accordion-header:hover{
+    background-color:#bc7affa9;
+ }
