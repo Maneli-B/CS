@@ -1,19 +1,21 @@
 html{
     color:rgb(202, 181, 253);
 }
-            BODY{
-               background-color:#10141b;
-background-image:url('C:\Users\pub-013\CS\diagonal-pattern.png');
-	 Font-Family:Sans-Serif;
-margin:0;
-            }
-            a{font-family: monospace;
-            color:aliceblue;
-            text-decoration: none;
-        }
-   li{
+BODY{
+    background-color:#10141b;
+    background-image:url('C:\Users\pub-013\CS\diagonal-pattern.png');
+	Font-Family:Sans-Serif;
+    margin:0;
+}
+a{
+    font-family: monospace;
+    color:aliceblue;
+    text-decoration: none;
+}
+li{
     color:rgb(247, 240, 255)
-   }
+}
+
 .HP{
     font-weight: bolder;
     color: rgb(255, 255, 255);
@@ -23,9 +25,41 @@ margin:0;
     background-size: cover;
     height:50%;
     color: #ffffff;
-font-size: 2rem;
-display: flex;
-align-items:center;
-flex-direction: column;
-padding border-bottom: 5%;
+    font-size: 2rem;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    border-bottom: 5%;
+}
+.navbar{
+    background-color: #020003;
+    display: flex;
+    justify-content: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+.nav-links li a{
+    text-decoration: none;
+    padding:0.5em 1.0em;
+    border-radius:0.5em;
+    transition: 0.3s;
+
+}
+.nav-links li a:hover{
+    background-color:rgba(250, 250, 206, 0.575);
+    border-radius:1em;
+}
+.title{
+    text-align: center;
+    padding: 1em;
+}
+.current{
+    text-decoration: underline dotted rgba(250, 250, 206, 0.425) 0.1em;
+}
+#save-name{
+    border-radius: 3em;
+    
 }

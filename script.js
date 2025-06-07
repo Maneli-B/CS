@@ -6,4 +6,9 @@ function greeter(name) {
 
 }
 greeter('username');
-let newName = document.getElementbyId('greeter').value;
+
+function savename() {
+    let newName = document.getElementById('greeter').value;
+    document.getElementById('username').textContent = newName;
+    document.getElementById("greeter").value = "";
+}
