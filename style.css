@@ -80,3 +80,43 @@ li{
 .accordion-header:hover{
     background-color:#bc7affa9;
  }
+.hidden{
+    display:none !important;
+}
+
+.blog-entry{
+    display: flex;
+    align-items: center;
+    gap:2em;
+    padding-left: 2%;
+    margin-bottom: 1.7%;
+}
+
+.blog-entry img{
+width:21%;
+border-radius: 3em;
+}
+#enter-password{
+    text-align: center;
+
+}
+#enter-password input {
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    border:0;
+    padding:0.2em;
+    width:21%;
+    background-color: #dabcf8;
+}
+#enter-password button{
+    font-size: 1.3rem;
+    padding:0.3em;
+border-radius: 0.5em;
+border:0;
+background-color:rgb(241, 158, 49) ;
+}
+#password-field{
+    display:flex;
+justify-content: center;
+gap: 0.7em;
+}
