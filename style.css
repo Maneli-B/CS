@@ -80,9 +80,7 @@ li{
 .accordion-header:hover{
     background-color:#bc7affa9;
  }
-.hidden{
-    display:none !important;
-}
+
 
 .blog-entry{
     display: flex;
@@ -91,7 +89,9 @@ li{
     padding-left: 2%;
     margin-bottom: 1.7%;
 }
-
+.hidden{
+    display:none;
+}
 .blog-entry img{
 width:21%;
 border-radius: 3em;
